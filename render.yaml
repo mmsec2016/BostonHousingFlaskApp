@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: boston-house-price-app
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    plan: free
